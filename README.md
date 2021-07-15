@@ -1,25 +1,24 @@
-## Progressbar (полоса загрузки)
+## Progressbar (loading bar)
 
-Тебе часто приходилось ждать загрузки чего-либо на сайте? Чего ты ожидал(а) - загрузку видео или большого количество фотографий? Когда пользователю приходится дожидаться данных с сервера, без опознавательных знаков не обойтись. Да и визуально понятнее, сколько еще ждать, когда сайт загрузится.
-
-В этой задаче тебе предстоит реализовать полосу загрузки (*progressbar*). Пример полосы и как она должна работать изображен на рисунке ниже.
+Have you often had to wait for something on the site to load? What were you waiting for? For a video to upload or maybe a large number of photos? When a user has to wait for some data from a server, identification marks are indispensable. And it is visually clearer how long one has to wait for the site to load.
+In this challenge, you will implement a loading bar (*progressbar*). An example of a bar and how it should work is shown in the figure below.
 
 ![progress](progressbar.gif)
 
 ### Release 0
 
-В этом релизе продумай html и css и сверстай progressbar. Сколько элементов надо использовать, чтобы реализовать полосу загрузки?
+In this release, think over the html and css, and design the progressbar. How many elements do you need to use to implement a loading bar?
 
 ### Release 1
 
-Теперь добавь логику, чтобы полоса начала работать как надо.
+Now add some logic to make the bar work as it should.
 
-Тебе пригодятся следующие методы: 
+You will need the following methods: 
 - [setTimeout()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setTimeout)
 - [setInterval()](https://developer.mozilla.org/en-US/docs/Web/API/WindowOrWorkerGlobalScope/setInterval)
 
-### Release 2 (необязательно)
+### Release 2 (optional)
 
-Продумай, как еще улучшить интерфейс полосы загрузки. Стоит ли показать пользователю процент загрузки?
+Think about how to further improve the loading bar interface. Should you show the user the download percentage?
 
-Доработай свой progressbar так, чтобы он выглядел круто!
+Customize your progressbar to look cool!
